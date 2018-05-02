@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pemiluapps.Home">
+
+    <TextView
+        android:id="@+id/pilihBahasa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/profileCalon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/pilihBahasa"
+        android:layout_marginEnd="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="138dp"
+        android:layout_toLeftOf="@+id/IconPemilu"
+        android:layout_toStartOf="@+id/IconPemilu"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/IconPemilu"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@+id/profileCalon"
+        android:layout_toEndOf="@+id/pilihBahasa"
+        android:layout_toRightOf="@+id/pilihBahasa"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/Orang"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/profileCalon"
+        android:layout_alignStart="@+id/profileCalon"
+        android:layout_below="@+id/profileCalon"
+        android:layout_marginTop="47dp"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/Buku"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/IconPemilu"
+        android:layout_alignStart="@+id/IconPemilu"
+        android:layout_alignTop="@+id/Orang"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+</RelativeLayout>

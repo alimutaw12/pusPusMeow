@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pemiluapps.PemilihPemula">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+        <TextView
+            android:layout_width="fill_parent"
+            android:text="The basic unit of the Android UI is the View. A View represents
+            a widget that has an appearance on the screen. An Activity contains Views and
+            ViewGroups. Examples of widgets are buttons, labels, text boxes, etc. One or
+            more Views can be grouped together into a ViewGroup. A ViewGroup provides the
+            layout in which you can order the appearance and sequence of views. Examples
+            of View groups are LinearLayout, Relative Layout, etc. "
+            android:layout_height="wrap_content"
+            android:id="@+id/txt"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:text="The basic unit of the Android UI is the View. A View represents
+            a widget that has an appearance on the screen. An Activity contains Views and
+            ViewGroups. Examples of widgets are buttons, labels, text boxes, etc. One or
+            more Views can be grouped together into a ViewGroup. A ViewGroup provides the
+            layout in which you can order the appearance and sequence of views. Examples
+            of View groups are LinearLayout, Relative Layout, etc. "
+            android:layout_height="wrap_content"
+            android:id="@+id/txt"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:text="The basic unit of the Android UI is the View. A View represents
+            a widget that has an appearance on the screen. An Activity contains Views and
+            ViewGroups. Examples of widgets are buttons, labels, text boxes, etc. One or
+            more Views can be grouped together into a ViewGroup. A ViewGroup provides the
+            layout in which you can order the appearance and sequence of views. Examples
+            of View groups are LinearLayout, Relative Layout, etc. "
+            android:layout_height="wrap_content"
+            android:id="@+id/txt"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:text="The basic unit of the Android UI is the View. A View represents
+            a widget that has an appearance on the screen. An Activity contains Views and
+            ViewGroups. Examples of widgets are buttons, labels, text boxes, etc. One or
+            more Views can be grouped together into a ViewGroup. A ViewGroup provides the
+            layout in which you can order the appearance and sequence of views. Examples
+            of View groups are LinearLayout, Relative Layout, etc. "
+            android:layout_height="wrap_content"
+            android:id="@+id/txt"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:text="The basic unit of the Android UI is the View. A View represents
+            a widget that has an appearance on the screen. An Activity contains Views and
+            ViewGroups. Examples of widgets are buttons, labels, text boxes, etc. One or
+            more Views can be grouped together into a ViewGroup. A ViewGroup provides the
+            layout in which you can order the appearance and sequence of views. Examples
+            of View groups are LinearLayout, Relative Layout, etc. "
+            android:layout_height="wrap_content"
+            android:id="@+id/txt"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:text="The basic unit of the Android UI is the View. A View represents
+            a widget that has an appearance on the screen. An Activity contains Views and
+            ViewGroups. Examples of widgets are buttons, labels, text boxes, etc. One or
+            more Views can be grouped together into a ViewGroup. A ViewGroup provides the
+            layout in which you can order the appearance and sequence of views. Examples
+            of View groups are LinearLayout, Relative Layout, etc. "
+            android:layout_height="wrap_content"
+            android:id="@+id/txt"
+            />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="First Step"
+            />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Second Step"
+            />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Thired Step"
+            />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Fourth Step"
+            />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Fifth Step"
+            />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Sixth Step"
+            />
+    </LinearLayout>
+
+</ScrollView>

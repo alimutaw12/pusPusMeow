@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pemiluapps.detailCalon">
+
+    <TextView
+        android:id="@+id/pilihBahasa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/fotoCalon"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/pilihBahasa"
+        android:layout_marginTop="14dp"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_height="200dp">
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="50dp"
+                android:layout_height="200dp"
+                android:layout_alignLeft="@+id/fing"
+                android:layout_alignStart="@+id/fing"
+                android:layout_alignTop="@+id/detailCalon"
+                android:layout_below="@+id/fing"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/fing"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/fotoCalon"
+                android:layout_marginTop="24dp"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/visiMisi"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignLeft="@+id/fing"
+                android:layout_alignStart="@+id/fing"
+                android:layout_below="@+id/fing"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/mission"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_above="@+id/uang"
+                android:layout_alignLeft="@+id/visiMisi"
+                android:layout_alignStart="@+id/visiMisi"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/uang"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignBottom="@+id/detailCalon"
+                android:layout_alignLeft="@+id/mission"
+                android:layout_alignStart="@+id/mission"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/detailCalon"
+            android:layout_width="315dp"
+            android:layout_height="200dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/fing"/>
+
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:id="@+id/identitasWakil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/detailCalon"
+        android:layout_toEndOf="@+id/fotoCalon"
+        android:layout_toRightOf="@+id/fotoCalon" />
+
+    <ImageView
+        android:id="@+id/mission1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/identitasWakil"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/mission2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignTop="@+id/mission1"
+        android:layout_toEndOf="@+id/mission1"
+        android:layout_toRightOf="@+id/mission1"/>
+
+    <ImageView
+        android:id="@+id/mission3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignTop="@+id/mission2"
+        android:layout_toEndOf="@+id/mission2"
+        android:layout_toRightOf="@+id/mission2"/>
+
+</RelativeLayout>
